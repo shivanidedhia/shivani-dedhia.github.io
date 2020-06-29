@@ -1,0 +1,276 @@
+body {
+
+	color: black;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+h1 {
+
+	font-family: 'Quicksand', sans-serif;
+	color: #58BDC2;
+	font-size: 2rem;
+	padding-top: 0;
+}
+
+h2 {
+
+	font-family: 'Quicksand', sans-serif;
+	color: #E0AC00;
+	font-size: 1.75rem;
+	margin: 0;
+	display: inline;
+	text-align: center;
+
+
+}
+
+p{
+	color: #40514E;
+	line-height: 1.5;
+	font-size: 1rem;
+}
+
+hr{
+	border-top: 5px dotted grey;
+	width: 3%;
+	margin: 100px auto 100px auto;
+	padding: auto;
+}
+
+a {
+	color: #2E2302;
+	font-family: font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #866700;
+}
+
+.navbar {
+
+	width: 100%;
+	height: 50px;
+	background-color:#E0AC00;
+	position: relative;  
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+.topcontainer {
+	background-color:#54AEC2;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	height: 500px;
+	width: 100%;
+
+}
+
+.middlecontainer {
+	background-color:#87C6D4;
+	height: 25%;
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.bottomcontainer {
+	background-color: #54AEC2;
+	color: black;
+	padding:0;
+	margin: 0;
+	position: relative;
+	height: 500px;
+	width: 100%;
+
+}
+
+.footer {
+
+	background-color:#87C6D4;
+	height: 25%;
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+}
+
+.potrait {
+
+	position: absolute;
+	top: 105px ;
+	right: 100px;
+	width: 20%;
+
+}
+
+.heading {
+
+	text-align: right;
+	background-color: white;
+	height: 8.5%;
+	margin: 0 auto;
+	position: absolute;
+	right: 120px;
+	top:350px;
+
+}
+
+.intro {
+
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	display: inline-block;
+	position: absolute;
+	width: 500px;
+	top: 160px;
+	left: 325px;
+}
+
+.hello {
+
+	width: 75px;
+	background-color: white;
+	margin-right: 10px;
+	display: inline-block;
+	float: left;
+
+}
+
+.workex-title {
+	margin: auto 0;
+	padding: 0;
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	width: 225px;
+	top: 20px;
+	left: 325px;
+	background-color: white;
+
+}
+
+.workex-1 {
+
+	margin: 50px auto 0 auto;
+	text-align: left;
+	width: 800px;
+	position: relative;
+	right: 50px;
+	left: 50px;
+
+}
+
+.coach-img {
+
+	position: absolute;
+	width: 100px;
+	left: 550px;
+	bottom: 120px;
+	display: inline;
+}
+
+.workex-1-desp {
+
+	text-align: left;
+}
+
+.workex-2 {
+
+	margin: 50px auto 0 auto;
+	text-align: left;
+	width: 800px;
+	position: relative;
+	right: 50px;
+	left: 50px;
+	padding-bottom: 20px;
+}
+
+.katespade-img{
+	position: absolute;
+	width: 100px;
+	left: 560px;
+	bottom: 155px;
+	display: inline;
+}
+
+.skills-title {
+	margin: auto 0;
+	padding: 0;
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	width: 65px;
+	bottom: 100px;
+	left: 325px;
+	background-color: white;
+
+}
+
+.skills-des {
+
+	margin: 0;
+	text-align: left;
+	width: 800px;
+	position: relative;
+	left:255px;
+	top: 50px;
+	display: inline-block;
+}
+
+.certifications-title {
+	margin: auto 0;
+	padding: 0;
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	width: 175px;
+	top: 100px;
+	right: 550px;
+	background-color: white;
+
+}
+
+.cert-des {
+	margin: 0;
+	text-align: left;
+	width: 800px;
+	position: relative;
+	left: 325px;
+	top: 100px;
+	display: inline-block;
+}
+
+.link-img {
+	position: relative;
+	display: inline-block;
+	left: 325px;
+
+}
+
+.btn-contact {
+  -webkit-border-radius: 1;
+  -moz-border-radius: 1;
+  border-radius: 1px;
+  font-family: 'Quicksand', sans-serif;
+  color: #E0AA00;
+  font-size: 1rem;
+  background: #FCFAF4;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  left: 1040px;
+  top: 25px;
+  
+}
+
+.btn:hover {
+  background: #FFFFFF;
+  text-decoration: none;
+}
