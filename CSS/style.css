@@ -17,7 +17,7 @@ h1 {
 h2 {
 
 	font-family: 'Quicksand', sans-serif;
-	color: #E0AC00;
+	color: #58BDC2;
 	font-size: 1.75rem;
 	margin: 0;
 	display: inline;
@@ -41,7 +41,6 @@ hr{
 
 a {
 	color: #2E2302;
-	font-family: font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 }
 
@@ -53,14 +52,14 @@ a:hover {
 
 	width: 100%;
 	height: 50px;
-	background-color:#E0AC00;
+	background-color:#f0fcff;
 	position: relative;  
 	margin: 0;
 	padding-bottom: 5px;
 }
 
 .topcontainer {
-	background-color:#54AEC2;
+	background-color:white;
 	position: relative;
 	margin: 0 auto;
 	padding: 0;
@@ -70,7 +69,7 @@ a:hover {
 }
 
 .middlecontainer {
-	background-color:#87C6D4;
+	background-color:#f0fcff;
 	height: 25%;
 	width: 100%;
 	position: relative;
@@ -78,7 +77,7 @@ a:hover {
 }
 
 .bottomcontainer {
-	background-color: #54AEC2;
+	background-color: white;
 	color: black;
 	padding:0;
 	margin: 0;
@@ -90,7 +89,7 @@ a:hover {
 
 .footer {
 
-	background-color:#87C6D4;
+	background-color:#f0fcff;
 	height: 25%;
 	width: 100%;
 	position: relative;
@@ -112,7 +111,7 @@ a:hover {
 .heading {
 
 	text-align: right;
-	background-color: white;
+	background-color:#faf4cf;
 	height: 8.5%;
 	margin: 0 auto;
 	position: absolute;
@@ -136,7 +135,7 @@ a:hover {
 .hello {
 
 	width: 75px;
-	background-color: white;
+	background-color: #faf4cf;
 	margin-right: 10px;
 	display: inline-block;
 	float: left;
@@ -152,7 +151,7 @@ a:hover {
 	width: 225px;
 	top: 20px;
 	left: 325px;
-	background-color: white;
+	background-color: #faf4cf;
 
 }
 
@@ -209,7 +208,7 @@ a:hover {
 	width: 65px;
 	bottom: 100px;
 	left: 325px;
-	background-color: white;
+	background-color: #faf4cf;
 
 }
 
@@ -233,7 +232,7 @@ a:hover {
 	width: 175px;
 	top: 100px;
 	right: 550px;
-	background-color: white;
+	background-color: #faf4cf;
 
 }
 
@@ -255,18 +254,17 @@ a:hover {
 }
 
 .btn-contact {
-  -webkit-border-radius: 1;
-  -moz-border-radius: 1;
-  border-radius: 1px;
+  
   font-family: 'Quicksand', sans-serif;
-  color: #E0AA00;
+  color: #58BDC2;
   font-size: 1rem;
-  background: #FCFAF4;
-  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  background: #faf4cf;
+  padding: 10px 10px 10px 10px;
   text-decoration: none;
   position: relative;
-  left: 1040px;
-  top: 25px;
+  left: 1050px;
+  top: 20px;
   
 }
 
