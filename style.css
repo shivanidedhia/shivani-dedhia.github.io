@@ -1,0 +1,178 @@
+
+
+hr {
+	padding: 0;
+}
+
+
+/* containers*/
+
+.cont {
+
+	width: 75%;
+	margin-top: 10%;
+  padding-top: 120px;
+  padding-bottom: 105px;
+	
+}
+
+/*Navigation Bar*/
+
+
+.title-nav {
+
+	margin: 5%;
+	text-align: center;
+	padding: 0 18px;
+}
+
+.navbar-nav {
+
+	margin-left: 31%;
+
+}
+
+.nav-link {
+	font-size: 1.2rem;
+}
+
+.logo {
+
+	margin-left: 20%;
+}
+
+/*Title*/
+
+
+#title .cont {
+
+	width: 90%;
+  padding-top: 5%;
+	
+}
+
+
+.title-image {
+
+  	width: 80%;
+  	margin-left: 10%;
+  
+   }
+
+ .name-tag {
+
+ 	margin-top: 7%;
+ 	padding: 7%;
+ }
+
+/* About me*/
+
+#about-me .cont {
+
+    margin: 0 auto;
+    padding-top: 200px;
+ }
+
+ /*Education*/
+ 
+
+ .baruch-img {
+
+ 	height: 55px;
+ 	margin-left: 5%;
+
+ }
+
+ .fit-img {
+
+ 	height: 85px;
+ 	margin-left: 14%;
+ }
+
+
+/* Work Expirience*/
+
+.coach-img {
+
+	height: 75px;
+	margin-left: 30%
+
+}
+
+.kate-img {
+
+	height: 60px;
+	margin-left: 38%;
+	
+}
+
+/* Certifications*/
+
+
+
+.nyu-img-1 {
+
+	width: 70px;
+	margin-left: 50.5%;
+}
+
+.nyu-img-2 {
+
+	width: 70px;
+	margin-left: 22.5%;
+}
+
+
+
+  /*Contact and Alumni*/
+
+ #contact-alumni .cont {
+
+    margin: 7% auto;
+ }
+
+  #contact-alumni h2 {
+
+  	margin: 4% auto 0;
+  	color: #343a40;
+  }
+
+  #contact-alumni img {
+
+  	margin: auto 7% 0 0;
+
+  }
+
+  #contact-alumni i {
+
+ 	margin: auto 5% 0 0;
+  	
+  }
+
+  .fit-alum {
+
+  	height: 80px;
+  }
+
+  .kis-alum {
+
+  	height: 80px;
+  }
+
+
+   /*smaller screen size*/
+
+   @media (max-width: 700px) { 
+
+  .cont {
+
+    width: 100%;
+
+  }
+
+/*end of media port*/
+   }
+
+
+
+
