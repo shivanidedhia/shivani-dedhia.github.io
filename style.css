@@ -65,6 +65,7 @@ hr {
  	padding: 7%;
  }
 
+
 /* About me*/
 
 #about-me .cont {
@@ -108,28 +109,15 @@ hr {
 
 /* Certifications*/
 
+#certifications .cont {
 
+    margin: 7% auto;
+ }
 
-.nyu-img-1 {
-
-	width: 70px;
-	margin-left: 50.5%;
-}
-
-.nyu-img-2 {
-
-	width: 70px;
-	margin-left: 22.5%;
-}
 
 
 
   /*Contact and Alumni*/
-
- #contact-alumni .cont {
-
-    margin: 7% auto;
- }
 
   #contact-alumni h2 {
 
@@ -162,16 +150,46 @@ hr {
 
    /*smaller screen size*/
 
-   @media (max-width: 700px) { 
+   @media (max-width: 1000px) { 
 
   .cont {
 
     width: 100%;
 
   }
+    .name-heading {
+
+    text-align: center;
+  }
+
+   .logo {
+
+    margin-left: 0;
+  }
 
 /*end of media port*/
    }
+
+/*medium screen size*/
+
+   @media (max-width: 1167px) { 
+
+  
+  .display-img {
+
+    display: none;
+  }
+
+    #title .cont {
+
+    width: 100%;
+
+  }
+
+
+/*end of media port*/
+   }
+
 
 
 
