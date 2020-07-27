@@ -1,5 +1,29 @@
 
 
+body {
+
+
+}
+
+h1 {
+
+  font-size: 4rem;
+  font-family: 'Suranna', serif;
+}
+
+h2 {
+
+  font-family: 'Suranna', serif;
+  font-size: 3rem;
+}
+
+p,a {
+
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
 hr {
 	padding: 0;
 }
@@ -9,10 +33,7 @@ hr {
 
 .cont {
 
-	width: 75%;
-	margin-top: 10%;
-  padding-top: 120px;
-  padding-bottom: 105px;
+  padding: 7% 15%;
 	
 }
 
@@ -21,15 +42,8 @@ hr {
 
 .title-nav {
 
-	margin: 5%;
 	text-align: center;
-	padding: 0 18px;
-}
-
-.navbar-nav {
-
-	margin-left: 31%;
-
+	padding: 0 25px;
 }
 
 .nav-link {
@@ -38,7 +52,7 @@ hr {
 
 .logo {
 
-	margin-left: 20%;
+  margin: 0 35% 0 20%
 }
 
 /*Title*/
@@ -46,23 +60,22 @@ hr {
 
 #title .cont {
 
-	width: 90%;
-  padding-top: 5%;
+  padding: 15% 7% 7% 7%;
 	
 }
 
 
 .title-image {
 
-  	width: 80%;
-  	margin-left: 10%;
+  	width: 90%;
+  	
   
    }
 
  .name-tag {
 
- 	margin-top: 7%;
- 	padding: 7%;
+  padding-top: 10%;
+
  }
 
 
@@ -147,48 +160,49 @@ hr {
   	height: 80px;
   }
 
+   /*medium screen size*/
 
-   /*smaller screen size*/
-
-   @media (max-width: 1000px) { 
+   @media (max-width: 1368px) { 
 
   .cont {
 
     width: 100%;
 
   }
-    .name-heading {
 
-    text-align: center;
-  }
-
-   .logo {
-
-    margin-left: 0;
-  }
-
-/*end of media port*/
-   }
-
-/*medium screen size*/
-
-   @media (max-width: 1167px) { 
-
-  
   .display-img {
 
     display: none;
   }
 
-    #title .cont {
 
-    width: 100%;
+
+  /*end of media port*/
+   }
+
+ /* small screen */
+
+ @media (max-width: 1010px) { 
+
+    .logo {
+
+    margin-left: 0;
+  }
+
+  .title-image {
+
+    width: 80%;
+    padding-top: 10%;
 
   }
 
+  #title .cont {
 
-/*end of media port*/
-   }
+    text-align: center;
+  }
+
+ /*end of media port*/
+ }
 
 
 
