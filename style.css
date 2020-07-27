@@ -170,12 +170,6 @@ hr {
 
   }
 
-  .display-img {
-
-    display: none;
-  }
-
-
 
   /*end of media port*/
    }
@@ -201,9 +195,23 @@ hr {
     text-align: center;
   }
 
+  .display-img {
+
+    display: none;
+  }
+
  /*end of media port*/
  }
 
+
+@media (max-width: 582px) {
+
+   h1,h2 {
+
+    font-size: 3rem;
+  }
+
+}
 
 
 
