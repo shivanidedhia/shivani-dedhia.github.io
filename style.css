@@ -15,6 +15,7 @@ h2 {
 
   font-family: 'Suranna', serif;
   font-size: 3rem;
+  color: #322f3d;
 }
 
 p,a {
@@ -195,10 +196,6 @@ hr {
     text-align: center;
   }
 
-  .display-img {
-
-    display: none;
-  }
 
  /*end of media port*/
  }
@@ -209,6 +206,16 @@ hr {
    h1,h2 {
 
     font-size: 3rem;
+  }
+
+}
+
+
+@media (max-width: 1300px) {
+
+  .display-img {
+
+    display: none;
   }
 
 }
